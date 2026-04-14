@@ -1,0 +1,100 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: #000000;
+  color: rgb(160, 140, 140);
+  padding: 15px;
+  text-align: center;
+}
+
+nav {
+  background-color: #3f0505;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #b0acac;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #201f1f;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #3f0505;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #3f0505;
+  color: white;
+}
+
+tr:hover {
+  background-color: #aba78f;
+}
+
+/* Form */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+  width: 500px;
+  height: 30px;
+}
+
+button {
+  padding: 10px;
+  background-color: #3f0505;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #220707;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+}
